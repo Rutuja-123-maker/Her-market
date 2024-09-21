@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - SHG Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="register.html">Join Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Join Us Section -->
+    <section class="join-us-section">
+        <div class="join-us-content">
+            <h1>Join Our Women's Self-Help Group (SHG)</h1>
+            <p>Self-Help Groups (SHGs) in India are a powerful tool in promoting women's empowerment, economic independence, and social transformation. By joining an SHG, women gain financial freedom through collective efforts, skill development, and entrepreneurship.</p>
+            
+            <h2>Why Join an SHG?</h2>
+            <ul>
+                <li>Empower yourself with financial independence.</li>
+                <li>Enhance your skills in manufacturing, handicrafts, and business.</li>
+                <li>Sell your homemade products like pickles, fryums, spices, and more.</li>
+                <li>Be part of a supportive and encouraging community.</li>
+                <li>Get access to training, resources, and market opportunities.</li>
+            </ul>
+            
+            <h2>How to Join</h2>
+            <p>Fill out the registration form below and become a member of our thriving SHG community. Share your talents, skills, and products with the world!</p>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="registration-form">
+            <form action="submit_form.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+
+                <label for="skillset">Skillset or Product Offering:</label>
+                <input type="text" id="skillset" name="skillset" placeholder="E.g., Fryums, Pickles, Handicrafts, etc." required>
+
+                <label for="experience">Experience (if any):</label>
+                <textarea id="experience" name="experience" rows="4" placeholder="Describe your experience"></textarea>
+
+                <label for="file">Upload Product Photos (optional):</label>
+                <input type="file" id="file" name="file">
+
+                <button type="submit">Join Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section class="success-stories">
+        <h2>Our SHG Success Stories</h2>
+        <div class="story">
+            <h3>Savita's Story</h3>
+            <p>Savita, a mother of two, joined the SHG in her village two years ago. Through the SHG, she learned how to make and market homemade pickles. Today, Savita sells her products across multiple cities and earns a steady income.</p>
+        </div>
+        <div class="story">
+            <h3>Manjula's Story</h3>
+            <p>Manjula started making handicrafts as a hobby. After joining the SHG, she received training on expanding her business. Today, her handicrafts are popular among customers, and she employs two other women from her village.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Follow us on <a href="#">Instagram</a>, <a href="#">Facebook</a> | Contact us: support@shg.com</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.join-btn {
+    background-color: #f4b400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.bg-img {
+    background: url('homemade-products.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shop-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.product-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+aside.categories {
+    float: left;
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+aside.categories ul {
+    list-style: none;
+}
+
+aside.categories ul li {
+    margin-bottom: 10px;
+}
+
+aside.categories ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#pieChartContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Join Us Section */
+.join-us-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.join-us-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.join-us-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.join-us-content ul {
+    list-style-type: disc;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px;
+    text-align: left;
+}
+
+.join-us-content ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Registration Form */
+.registration-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.registration-form input, .registration-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    padding: 12px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.registration-form button:hover {
+    background-color: #ff4500;
+}
+
+/* Success Stories Section */
+.success-stories {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.success-stories h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.story {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story h3 {
+    font-size: 24px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.story p {
+    font-size: 18px;
+    color: #555;
+}

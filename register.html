@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the SHG Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="register.html">Join Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Registration Form Section -->
+    <section class="registration-form">
+        <h2>Join the SHG Network</h2>
+        <p>Fill out the form below to join our community of empowered women.</p>
+
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="skillset">Skillset:</label>
+            <textarea id="skillset" name="skillset" required></textarea>
+
+            <label for="product">Product Offerings:</label>
+            <textarea id="product" name="product" required></textarea>
+
+            <label for="photo">Upload Product Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Follow us on <a href="#">Instagram</a>, <a href="#">Facebook</a> | Contact us: support@shg.com</p>
+    </footer>
+
+</body>
+</html>
